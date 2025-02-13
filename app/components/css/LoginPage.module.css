@@ -1,0 +1,19 @@
+.container {
+    @apply flex justify-center items-center h-screen bg-[#FFF9F9];
+    background-image: url('../../../public/login.webp');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-family: "Urbanist", serif;
+}
+.card {
+    @apply w-1/2 justify-center items-center;
+}
+  
+.heading {
+    
+}
+
+.fontSmall{
+    font-size: 11.6px;
+}

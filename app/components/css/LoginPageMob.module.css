@@ -1,0 +1,21 @@
+.container {
+    @apply flex flex-col justify-center items-center h-screen text-center px-6;
+    background-color: #FFF9F9;
+    background-image: url('/mobile_bg_onboard.webp'); /* Adjust the path if needed */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-family: "Urbanist", serif;
+}
+
+.icon {
+    @apply mb-4;
+}
+
+.title {
+    @apply text-2xl font-bold text-[#7D2675] mb-2;
+}
+
+.fontSmall {
+    @apply text-gray-600 text-[11.6px] leading-tight max-w-xs ;
+}
